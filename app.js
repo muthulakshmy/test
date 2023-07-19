@@ -78,6 +78,6 @@ function clear_notes(){
     document.getElementById("add_notes").onclick=()=>saveNote;
 
 }
-display_notes
+
 
 
