@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: pink; */
+}
+body{
+    background-image: url(bg.webp);
+}
+.notes__app h1{
+    /* text-align: center; */
+    color: rgb(247, 146, 164);
+}
+.create__notes{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+
+    padding: 20px;
+
+
+}
+input[type="text"]{
+    width: 280px;
+    height: 30px;
+    padding: 10px;
+}
+textarea{
+    width: 300px;
+    height: 300px;
+    
+
+}
+#add_notes{
+    width:100px;
+    height: 30px;
+}
+.notes__list{
+    padding: 20px;
+    display: flex;
+}
+/* #notes_list{
+    padding: 20px;
+} */
+ul{
+    padding: 20px;
+}
+/* button{
+    width: 40px;
+    height:40px;
+    margin: 20px;
+} */
+#edit,#delete{
+    width: 50px;
+    height:30px;
+}
+#edit{
+    margin-right: 10px;
+}
+
+@media screen and(max-width:325px){
+    input[type="text"]{
+        width: 200px;
+        height: 30px;
+        padding: 10px;
+    }
+    textarea{
+        width: 200px;
+        height: 300px;
+        
+    
+    }
+    
+}
+

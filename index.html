@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
+   <div class="notes__app">
+    <h1>Notes App</h1>
+   
+   <div class="create__notes">
+    <label for="text"><strong>Notes title</strong> </label>
+    <input type="text" id="text" placeholder="enter the title">
+    <label for="textarea"><strong>Notes Description</strong> </label>
+    <textarea id="textarea" placeholder="enter the note description">
+
+    </textarea>
+    <button id="add_notes" onclick="add_notes()">Add Notes</button>
+   
+   </div>
+  
     
+    
+</div> 
+<div class="notes__list">
+    <ul id="notes__list">
+
+    </ul>
+   </div>
 </body>
 <script src="app.js"></script>
 </html>
