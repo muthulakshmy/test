@@ -12,14 +12,17 @@
    
    <div class="create__notes">
     <label for="text"><strong>Notes title</strong> </label>
-    <input type="text" id="text" placeholder="enter the title">
+    <input type="text" id="text" placeholder="enter the title" required>
     <label for="textarea"><strong>Notes Description</strong> </label>
-    <textarea id="textarea" placeholder="enter the note description">
+    <textarea id="textarea" placeholder="enter the note description" required>
 
     </textarea>
     <button id="add_notes" onclick="add_notes()">Add Notes</button>
    
    </div>
+   <section id="popup" ></section>
+   
+    
   
     
     
@@ -30,5 +33,5 @@
     </ul>
    </div>
 </body>
-<script src="app.js"></script>
+<script src="script.js"></script>
 </html>
