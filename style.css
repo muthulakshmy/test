@@ -8,7 +8,7 @@ body{
 }
 .notes__app h1{
     /* text-align: center; */
-    color: rgb(26, 19, 43);
+    color: indigo;
 
 }
 .create__notes{
@@ -27,7 +27,7 @@ input[type="text"]{
     
 }
 label{
-    color: rgb(67, 67, 247);
+    color:indigo
 }
 textarea{
     width: 300px;
@@ -39,8 +39,8 @@ textarea{
     width:100px;
     height: 30px;
     margin-top: 10px;
-    background-color: lightcoral;
-    color:maroon;
+    background-color:indigo;
+    color:rgb(219, 212, 224);
     border-radius: 5px;
     border: none;
 }
@@ -67,14 +67,44 @@ ul{
     margin-right: 10px;
 }
 
-@media screen and(max-width:325px){
+#popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:150px;
+    height: auto;
+    background-color: rgb(222, 130, 130);
+    font-size: 12px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: rgb(152, 149, 201);
+    
+}
+
+#para{
+    font-size: 20px;
+}
+#cancel,#edit,#delete{
+      width:100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color:indigo;
+    color:rgb(219, 212, 224);
+    border-radius: 5px;
+    border: none;
+
+}
+
+@media screen and (max-width:340px) {
     input[type="text"]{
-        width: 200px;
+        width: 270px;
         height: 30px;
         padding: 10px;
     }
     textarea{
-        width: 200px;
+        width: 290px;
         height: 300px;
         
     
@@ -82,4 +112,18 @@ ul{
   
     
 }
-
+@media screen and (max-width:320px) {
+    input[type="text"]{
+        width: 260px;
+        height: 30px;
+        padding: 10px;
+    }
+    textarea{
+        width: 280px;
+        height: 300px;
+        
+    
+    }
+  
+    
+}
